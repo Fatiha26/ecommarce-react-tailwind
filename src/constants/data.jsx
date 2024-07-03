@@ -20,7 +20,7 @@ import pic3 from '../assets/image/c3.jpg'
 import pic4 from '../assets/image/c4.jpeg'
 
 
-export const slider = [
+export const sliders = [
     {
         src : pic1,
     },
