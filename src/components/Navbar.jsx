@@ -5,27 +5,29 @@ import { IoBagOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between items-center py-2 border-b-2">
+
+    
+    <div className="flex justify-between items-center py-2">
       <div className="grid md:grid-cols-2 items-center ">
       <div className="flex flex-col items-center">
       <img src={logo} alt="logo" className="w-12" />
-      <span className="text-md font-bold">Elegance Echo</span>
+      <span className="text-md font-bold text-pink-500">Elegance Echo</span>
       </div>
         <div className="flex gap-12">
         {data.map((item,index)=>(
             <div key={index} >
-               <a href={item.link} className="text-lg font-bold px-3 py-2 border border-transparent
-                hover:border-black cursor-pointer transition delay-75">{item.text}</a>
+               <a href={item.link} className="text-lg text-white font-bold px-3 py-2 border border-transparent
+                hover:border-white cursor-pointer transition delay-75">{item.text}</a>
             </div>
         ))}
         </div>
       </div>
 
-      <div className="flex gap-4 mr-16">
-         <CiSearch className="text-2xl hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer" />
-         <CiUser className="text-2xl hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer"/>
-         <CiHeart className="text-2xl hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer"/>
-         <IoBagOutline className="text-2xl hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer"/> 
+      <div className="flex gap-5 mr-16">
+         <CiSearch className="text-2xl text-white hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer" />
+         <CiUser className="text-2xl text-white hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer"/>
+         <CiHeart className="text-2xl text-white hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer"/>
+         <IoBagOutline className="text-2xl text-white hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer"/> 
       </div>
     </div>
   )

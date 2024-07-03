@@ -14,10 +14,10 @@ export const data = [
     }
 ]
 
-import pic1 from '../assets/image/c1.jpeg'
-import pic2 from '../assets/image/c2.jpg'
+import pic1 from '../assets/image/k1.jpg'
+import pic2 from '../assets/image/k2.jpg'
 import pic3 from '../assets/image/c3.jpg'
-import pic4 from '../assets/image/c4.jpeg'
+import pic4 from '../assets/image/k1.jpg'
 
 
 export const sliders = [
