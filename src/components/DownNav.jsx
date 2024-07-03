@@ -3,7 +3,7 @@ import { downNav } from '../constants/data';
 
 const DownNav = () => {
   return (
-    <nav className='fixed bottom-0 z-10 bg-white w-full'>
+    <nav className='md:fixed bottom-0 z-10 bg-white w-full'>
       <ul className='flex flex-row justify-evenly items-center'>
         {downNav.map((link, index) => (
           <li key={index} className='py-4 border-t-4 transition delay-75 border-transparent hover:border-pink-500'>

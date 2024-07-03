@@ -7,11 +7,11 @@ const Navbar = () => {
   return (
 
     
-    <div className="flex justify-between items-center py-2">
+    <div className="md:flex justify-between items-center py-2">
       <div className="grid md:grid-cols-2 items-center ">
-      <div className="flex flex-col items-center">
-      <img src={logo} alt="logo" className="w-12" />
-      <span className="text-md font-bold text-pink-500">Elegance Echo</span>
+      <div className="flex md:flex-col items-center justify-center">
+      <img src={logo} alt="logo" className="w-20 md:w-12" />
+      <span className="text-xl md:text-md font-bold text-pink-500">Elegance Echo</span>
       </div>
         <div className="flex gap-12">
         {data.map((item,index)=>(
@@ -23,7 +23,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="flex gap-5 mr-16">
+      <div className="flex gap-5 ml-24 md:mr-16">
          <CiSearch className="text-2xl text-white hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer" />
          <CiUser className="text-2xl text-white hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer"/>
          <CiHeart className="text-2xl text-white hover:text-pink-400 hover:-mt-1 transition delay-75 cursor-pointer"/>
