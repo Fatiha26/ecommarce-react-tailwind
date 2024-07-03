@@ -1,8 +1,7 @@
-import React from 'react'
 
 const Second = () => {
   return (
-    <div>
+    <div className='w-full h-[780px] bg-black'>
       hello
     </div>
   )
