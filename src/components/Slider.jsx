@@ -29,14 +29,15 @@ const Slider = () => {
   return (
     <div className='h-[550px] w-full m-auto relative group'>
       <div
-        style={{ backgroundImage: `url(${sliders[curImg].src})` }}
+        style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.3), 
+                          rgba(0, 0, 0, 0.3)),url(${sliders[curImg].src})` }}
         className='w-full h-full bg-top bg-cover duration-500'
       >
         <Navbar />
-        <div className='flex justify-center items-center flex-col pt-44'>
-      <h1 className='text-5xl text-white font-bold'>
-      Welcome to<span className="text-5xl md:text-md font-bold text-pink-500">Elegance Echo</span></h1>
-      <button className='w-40 h-12 bg-black text-white text-2xl mt-4'>Shop Now</button>
+        <div className='flex justify-center items-center flex-col pt-32'>
+      <h1 className='text-5xl text-white font-bold hover:tracking-wider cursor-pointer transition delay-75'>
+      Welcome to <span className="text-5xl md:text-md font-bold text-pink-500">Elegance Echo</span></h1>
+      <button className='w-40 h-12 bg-black text-white text-2xl mt-4 border-b-2 transition delay-75 border-transparent hover:border-white'>Shop Now</button>
       </div>
       </div>
 

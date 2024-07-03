@@ -10,7 +10,7 @@ const Second = () => {
 
       <div className='flex justify-center items-center flex-col pt-44'>
       <h1 className='text-5xl text-white font-bold'>Women's Collection </h1>
-      <button className='w-40 h-12 bg-black text-white text-2xl mt-4'>Shop Now</button>
+      <button className='w-40 h-12 bg-black text-white text-2xl mt-4 border-b-2 transition delay-75 border-transparent hover:border-white'>Shop Now</button>
       </div>
     </div>
     
