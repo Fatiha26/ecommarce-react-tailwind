@@ -30,7 +30,7 @@ const Slider = () => {
     <div className='h-[550px] w-full m-auto relative group'>
       <div
         style={{ backgroundImage: `url(${sliders[curImg].src})` }}
-        className='w-full h-full bg-cover bg-center duration-500'
+        className='w-full h-full bg-top bg-cover duration-500'
       >
         <Navbar />
       </div>
