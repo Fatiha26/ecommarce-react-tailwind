@@ -34,3 +34,11 @@ export const sliders = [
         src : pic4,
     },
 ]
+
+export const downNav = [
+    {feature : "WOMEN",},
+    {feature : "MEN",},
+    {feature : "KIDS",},
+    {feature : "JEWELLERY",},
+    {feature : "SKIN CARE",},
+]
