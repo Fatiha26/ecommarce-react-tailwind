@@ -1,6 +1,7 @@
 import Slider from './components/Slider'
 import DownNav from './components/DownNav'
 import Second from './components/Second'
+import New from './components/New'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Slider />
       <DownNav />
       <Second />
+      <New />
     </>
   )
 }
