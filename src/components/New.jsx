@@ -30,6 +30,16 @@ const New = () => {
       modules={[FreeMode,Pagination]}
       className='max-w-[90%] lg:max-w-[80%]'
       >
+      {newItem.map((item,index)=>(
+        <SwiperSlide key={index}>
+        <div className='flex flex-col gap-6 group relative shadow-lg to-white rounded-xl px-6 py-8 h-[250px]
+        w-[215px] lg:h-[400px] lg:w-[350px]'>
+
+        </div>
+
+        </SwiperSlide>
+
+      ))}
 
      </Swiper>
 
