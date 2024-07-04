@@ -64,7 +64,7 @@ export const newItem = [
 export const offer = [
     {
         offer: o3,
-        otext: "Half the Price, Double the Style with MAN&apos;S Collection!",
+        otext: "Half the Price, Double the Style with MAN'S Collection!",
     },
     {
         offer: o1,
