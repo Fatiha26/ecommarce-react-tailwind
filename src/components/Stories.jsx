@@ -26,6 +26,8 @@ const Stories = () => {
             </div>
             </div>
         </div>
+        <button className='w-40 h-12 bg-black text-white text-2xl mt-8 
+        border border-white'>View All</button>
        </div>
     </>
   )
