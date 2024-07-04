@@ -63,7 +63,14 @@ export const newItem = [
 
 export const offer = [
     {
-        offer: 
-        otext: 
+        offer: o3,
+        otext: "Half the Price, Double the Style with MAN&apos;S Collection!",
+    },
+    {
+        offer: o1,
+        otext: "Enjoy Exciting Cash Back Offers",
+    }, {
+        offer: o2,
+        otext: "Shopping at Elegance Echo gets more rewarding this Eid!",
     }
 ]
