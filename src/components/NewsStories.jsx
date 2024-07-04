@@ -3,7 +3,7 @@ const NewsStories = () => {
   return (
     <>
     <div className='my-16 text-center'>
-        <h1 className='text-center text-6xl font-bold'>Latest News & Offers</h1>
+        <h1 className='text-center text-4xl font-bold'>Latest News & Offers</h1>
         <div className='grid grid-cols-3 gap-8 px-12 py-12'>
            {offer.map((item,index)=>(
             <div className='bg-white shadow shadow-gray-400' key={index}>

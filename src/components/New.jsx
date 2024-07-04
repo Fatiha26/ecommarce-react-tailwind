@@ -11,7 +11,7 @@ const New = () => {
   return (
     <>
       <div className='my-12'>
-      <h1 className='text-center text-6xl font-bold'>What&apos;s new</h1>
+      <h1 className='text-center text-4xl font-bold'>What&apos;s new</h1>
       <div className='flex items-center justify-center flex-col h-screen relative'>
         <Swiper
           breakpoints={{
