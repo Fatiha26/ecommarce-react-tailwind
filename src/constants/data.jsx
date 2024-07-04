@@ -6,6 +6,9 @@ import product1 from '../assets/image/p1.jpg'
 import product2 from '../assets/image/p2.jpg'
 import product3 from '../assets/image/p3.jpg'
 import product4 from '../assets/image/p4.jpg'
+import o1 from '../assets/image/o1.png'
+import o2 from '../assets/image/o2.jpg'
+import o3 from '../assets/image/o3.jpg'
 
 
 export const data = [
@@ -56,4 +59,11 @@ export const newItem = [
     {src:product4},
     {src:product1},
     {src:product2},
+]
+
+export const offer = [
+    {
+        offer: 
+        otext: 
+    }
 ]
