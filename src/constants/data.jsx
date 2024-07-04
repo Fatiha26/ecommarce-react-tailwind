@@ -54,5 +54,6 @@ export const newItem = [
     {src:product2},
     {src:product3},
     {src:product4},
-
+    {src:product1},
+    {src:product2},
 ]
