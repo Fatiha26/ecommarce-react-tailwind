@@ -10,6 +10,7 @@ import { newItem } from '../constants/data';
 const New = () => {
   return (
     <>
+      <div>
       <div className='flex items-center justify-center flex-col h-screen relative'>
         <Swiper
           breakpoints={{
@@ -44,10 +45,12 @@ const New = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className='swiper-button-prev absolute z-10 top-50 left-20  text-gray-500 cursor-pointer'>
+        <div className='swiper-button-prev absolute z-10 top-50 cursor-pointer'>
+
         </div>
-        <div className='swiper-button-next absolute z-10 top-50 right-20 text-gray-500 cursor-pointer'>
+        <div className='swiper-button-next absolute z-10 top-50 cursor-pointer'>
         </div>
+      </div>
       </div>
     </>
   );
