@@ -4,6 +4,7 @@ import Second from './components/Second'
 import New from './components/New'
 import Category from './components/Category'
 import NewsStories from './components/NewsStories'
+import Stories from './components/Stories'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <New />
       <Category />
       <NewsStories />
+      <Stories />
     </>
   )
 }
