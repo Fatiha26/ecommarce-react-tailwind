@@ -3,6 +3,7 @@ import DownNav from './components/DownNav'
 import Second from './components/Second'
 import New from './components/New'
 import Category from './components/Category'
+import NewsStories from './components/NewsStories'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Second />
       <New />
       <Category />
+      <NewsStories />
     </>
   )
 }
