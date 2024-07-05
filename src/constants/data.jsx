@@ -9,7 +9,9 @@ import product4 from '../assets/image/p4.jpg'
 import o1 from '../assets/image/o1.png'
 import o2 from '../assets/image/o2.jpg'
 import o3 from '../assets/image/o3.jpg'
-
+import a1 from '../assets/image/c2.jpg'
+import j1 from '../assets/image/j1.jpg'
+import s1 from '../assets/image/s1.jpg'
 
 export const data = [
     {
@@ -73,4 +75,23 @@ export const offer = [
         offer: o2,
         otext: "Shopping at Elegance Echo gets more rewarding this Eid!",
     }
+]
+
+export const about = [
+    {
+        src : a1,
+        text: "WHO WE ARE"
+    },
+    {
+        src : s1,
+        text: "CATEGORIES"
+    },
+    {
+        src : j1,
+        text:"SERVICE"
+    },
+    {
+        src : pic1,
+        text: "MORE"
+    },
 ]

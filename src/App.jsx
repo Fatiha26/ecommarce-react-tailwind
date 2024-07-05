@@ -6,7 +6,7 @@ import Category from './components/Category'
 import NewsStories from './components/NewsStories'
 import Stories from './components/Stories'
 import StayTuned from './components/StayTuned'
-
+import About from './components/About'
 const App = () => {
   return (
     <>
@@ -18,6 +18,7 @@ const App = () => {
       <NewsStories />
       <Stories />
       <StayTuned />
+      <About />
     </>
   )
 }
