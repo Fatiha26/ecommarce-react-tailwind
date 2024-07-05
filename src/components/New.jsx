@@ -11,8 +11,8 @@ const New = () => {
   return (
     <>
       <div className='my-12'>
-      <h1 className='text-center text-4xl font-bold'>What&apos;s new</h1>
-      <div className='flex items-center justify-center flex-col h-screen relative'>
+      <h1 className='text-center text-5xl mb-4 font-bold'>What&apos;s new</h1>
+      <div className='flex items-center justify-center flex-col md:h-screen relative'>
         <Swiper
           breakpoints={{
             340: {
@@ -42,7 +42,7 @@ const New = () => {
                   className='absolute inset-0 bg-cover bg-center'
                   style={{ backgroundImage: `url(${item.src})` }}>
                     <div className='absolute bottom-3 left-3'>
-                      <IoIosAddCircleOutline className='text-5xl text-pink-500' />
+                      <IoIosAddCircleOutline className='text-5xl text-black' />
                     </div>
                   </div>
               </div>
