@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <>
+      <div className='overflow-hidden'>
       <Slider />
       <DownNav />
       <Second />
@@ -21,6 +22,7 @@ const App = () => {
       <StayTuned />
       <About />
       <Footer />
+      </div>
     </>
   )
 }

@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
         <div className="flex gap-12">
         {data.map((item,index)=>(
-            <div key={index} className="ml-4 mb-4 md:mb-0 md:ml-0">
+            <div key={index} className="ml-3 mb-4 md:mb-0 md:ml-0">
                <a href={item.link} className="text-lg text-white font-bold px-3 py-2 border border-transparent
                 hover:border-white cursor-pointer transition delay-75">{item.text}</a>
             </div>
