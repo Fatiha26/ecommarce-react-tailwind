@@ -21,7 +21,7 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 2000); // Change image every 2 seconds
+    }, 3000); // Change image every 2 seconds
 
     return () => clearInterval(interval); // Cleanup interval on component unmount
   }, [curImg]);
