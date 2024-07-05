@@ -4,16 +4,16 @@ import { FaFacebook, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <>
-      <footer>
+      <footer className='flex justify-between px-12 items-center bg-black py-4'>
          <div>
-            <p>&copy; Lamia Fatiha 2024. All rights reserved.</p>
+            <p className='text-lg text-white'>&copy; Lamia Fatiha 2024. All rights reserved.</p>
          </div>
-         <div>
+         <div className='flex gap-4 text-2xl text-white'>
           <FaFacebook />
           <FaInstagram />
           <FaLinkedinIn  />
          </div>
-         <div>
+         <div className='w-20 h-8 flex gap-4 mr-24'>
            <img src={google} alt="" />
            <img src={apple} alt="" />
          </div>
