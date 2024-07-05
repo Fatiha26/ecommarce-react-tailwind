@@ -80,18 +80,22 @@ export const offer = [
 export const about = [
     {
         src : a1,
-        text: "WHO WE ARE"
+        text: "WHO WE ARE",
+        data: "ABOUT"
     },
     {
         src : s1,
-        text: "CATEGORIES"
+        text: "CATEGORIES",
+        data: "ABOUT"
     },
     {
         src : j1,
-        text:"SERVICE"
+        text:"SERVICE",
+        data: "ABOUT"
     },
     {
         src : pic1,
-        text: "MORE"
+        text: "MORE",
+        data: "ABOUT"
     },
 ]
