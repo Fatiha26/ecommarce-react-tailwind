@@ -1,4 +1,3 @@
-import React from 'react';
 import { downNav } from '../constants/data';
 
 const DownNav = () => {

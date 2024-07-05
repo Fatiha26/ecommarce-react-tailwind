@@ -35,8 +35,8 @@ const Slider = () => {
       >
         <Navbar />
         <div className='flex justify-center items-center flex-col pt-32'>
-      <h1 className='text-5xl text-white font-bold hover:tracking-wider cursor-pointer transition delay-75'>
-      Welcome to <span className="text-5xl md:text-md font-bold text-pink-500">Elegance Echo</span></h1>
+      <h1 className='md:text-5xl text-3xl text-white font-bold hover:tracking-wider cursor-pointer transition delay-75'>
+          Welcome to <span className="md:text-5xl text-3xl font-bold text-pink-500">Elegance Echo</span></h1>
       <button className='w-40 h-12 bg-black text-white text-2xl mt-4 border-b-2 transition delay-75 border-transparent hover:border-white'>Shop Now</button>
       </div>
       </div>
