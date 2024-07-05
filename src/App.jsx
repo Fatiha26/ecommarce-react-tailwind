@@ -7,6 +7,7 @@ import NewsStories from './components/NewsStories'
 import Stories from './components/Stories'
 import StayTuned from './components/StayTuned'
 import About from './components/About'
+import Footer from './components/Footer'
 const App = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const App = () => {
       <Stories />
       <StayTuned />
       <About />
+      <Footer />
     </>
   )
 }
