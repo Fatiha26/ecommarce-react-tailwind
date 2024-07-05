@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
 
     
-    <div className="md:flex justify-between items-center py-2">
+    <div className="md:flex justify-between items-center md:py-2 py-4">
       <div className="grid md:grid-cols-2 items-center ">
       <div className="flex md:flex-col items-center justify-center">
       <img src={logo} alt="logo" className="w-20 md:w-12" />
@@ -15,7 +15,7 @@ const Navbar = () => {
       </div>
         <div className="flex gap-12">
         {data.map((item,index)=>(
-            <div key={index} >
+            <div key={index} className="ml-4 mb-4 md:mb-0 md:ml-0">
                <a href={item.link} className="text-lg text-white font-bold px-3 py-2 border border-transparent
                 hover:border-white cursor-pointer transition delay-75">{item.text}</a>
             </div>
