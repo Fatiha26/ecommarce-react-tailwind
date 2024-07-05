@@ -14,10 +14,10 @@ const About = () => {
                <div className='flex justify-center items-center flex-col pt-44'>
                <h1 className='text-xl tracking-wider text-white font-bold'>{item.text}</h1>
             </div>
-                <div className='absolute text-center py-20 top-0  left-0 text-white 
+                {/* <div className='absolute text-center py-20 top-0  left-0 text-white 
                 text-2xl flex flex-col gap-5 bg-opacity-50 bg-black w-full h-[332px]'>
                    <a href="#">{item.data}</a>
-                </div>
+                </div> */}
          </div>
         ))
       }
