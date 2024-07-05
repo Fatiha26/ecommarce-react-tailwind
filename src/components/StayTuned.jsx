@@ -12,13 +12,13 @@ const StayTuned = () => {
         </div>
         <div>
           <div>
-            <input type="text" />
-            <input type="text" />
-            <button></button>
+            <input type="text" placeholder="Enter Email Address" />
+            <input type="text" placeholder="Enter Mobile Number" />
+            <button>Subscribe</button>
           </div>
           <div>
-            <input type="radio" name="" id="" />
-            <input type="radio" name="" id="" />
+            <input type="radio" placeholder="I live in Bangladesh" />
+            <input type="radio" placeholder="I live outside of Bangladesh" />
           </div>
         </div>
      </div>

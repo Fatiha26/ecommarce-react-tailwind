@@ -5,6 +5,7 @@ import New from './components/New'
 import Category from './components/Category'
 import NewsStories from './components/NewsStories'
 import Stories from './components/Stories'
+import StayTuned from './components/StayTuned'
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Category />
       <NewsStories />
       <Stories />
+      <StayTuned />
     </>
   )
 }
