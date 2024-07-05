@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 import { sliders } from '../constants/data';
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import Navbar from './Navbar';
